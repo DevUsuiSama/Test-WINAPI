@@ -1,0 +1,27 @@
+Project
+
+Persona <-%%0!n$ 00#5
+
+(*
+ * @Autor:      UsuiSama
+ * @Date:       05/05/2021 4:30 a.m.
+ *)
+namespace __UI_LOGIN__
+    
+open Android.App
+open Android.Widget
+open System
+
+type Event(login) =
+    member this.login = login
+    member this.blogin_Press sender e =
+        let dialog = new AlertDialog.Builder(login)
+        dialog.SetTitle("Sys->UsuiSama")
+            .SetMessage("Que tal¿?")
+            .SetPositiveButton("Bien¿?", fun s o -> Console.WriteLine("Bien¿?"))            
+            .SetNegativeButton("Mal¿?", fun s o -> Console.WriteLine("Mal¿?")) |> ignore
+        dialog.Create().Show()
+    member this.bwithoutLogin_Press sender e =
+        Toast.MakeText(login, "Bienvenido! [Acceder sin Iniciar Sesión]", ToastLength.Long).Show()
+    member this.bsignIn_Press sender e =
+        Toast.MakeText(login, "Registrando! [-]", ToastLength.Long).Show()

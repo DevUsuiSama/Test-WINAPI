@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um",
+                "C:\\Users\\joese\\Desktop\\Proyecto Guía\\UsuiSama",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "WIN32",
+                "_WINDOW",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx86/x86/cl.exe",
+            "intelliSenseMode": "windows-msvc-x86",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "browse": {
+                "path": [
+                    "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um",
+                    "C:\\Users\\joese\\Desktop\\Proyecto Guía\\UsuiSama",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
